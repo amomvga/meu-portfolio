@@ -4,27 +4,19 @@ import { Badge } from "@/components/ui/badge"
 const experiences = [
   {
     title: "Desenvolvedor Full Stack",
-    company: "Empresa XYZ",
-    period: "Jan 2022 - Presente",
+    company: "Noah Systems",
+    period: "Jun 2024 - Dias Atuais",
     description:
-      "Desenvolvimento e manutenção de aplicações web utilizando React, Next.js, Node.js e MongoDB. Implementação de novas funcionalidades e otimização de performance.",
-    technologies: ["React", "Next.js", "Node.js", "MongoDB", "TypeScript"],
+      "Atuo sendo responsável por criar novas funcionalidades, corrigir bugs e otimizar a performance de aplicações web. Trabalho diariamente com tecnologias como Vue.js e Quasar Framework no frontend, e Node.js, Express, Sequelize e Socket.IO no backend. Minha atuação inclui desde o desenvolvimento de interfaces responsivas e intuitivas até a implementação de APIs performáticas e comunicação em tempo real com WebSockets, garantindo robustez, escalabilidade e boa experiência para o usuário final.",
+    technologies: ["VueJs", "JavaScript", "TypeScript", "Sequelize", "NodeJS", "Express"],
   },
   {
-    title: "Desenvolvedor Front-end",
-    company: "Empresa ABC",
-    period: "Jun 2020 - Dez 2021",
+    title: "Desenvolvedor Full Stack",
+    company: "Leek Soluções",
+    period: "Jun 2022 - Jun 2024",
     description:
-      "Criação de interfaces responsivas e acessíveis utilizando HTML, CSS e JavaScript. Colaboração com designers e desenvolvedores back-end para implementar novas funcionalidades.",
-    technologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
-  },
-  {
-    title: "Estagiário de Desenvolvimento",
-    company: "Startup DEF",
-    period: "Jan 2020 - Jun 2020",
-    description:
-      "Suporte no desenvolvimento de aplicações web, correção de bugs e implementação de pequenas funcionalidades sob supervisão.",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP"],
+      "Atuei no desenvolvimento de novas funcionalidades, correção de bugs e otimizações em aplicações web, contribuindo tanto no frontend quanto no backend. Participei ativamente das decisões técnicas e arquiteturais dos projetos, sempre visando a escalabilidade e performance do sistema. Trabalhei com tecnologias modernas como Node.js, React, Next.js, Prisma, Sequelize, PostgreSQL, além de bibliotecas de UI como Chakra UI e Material UI. Também tive experiência com comunicação em tempo real utilizando Socket.IO.",
+    technologies: ["React", "UI", "JavaScript", "TypeScript", "Prisma", "NodeJS", "Express"],
   },
 ]
 

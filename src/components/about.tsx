@@ -13,12 +13,15 @@ export default function About() {
               com funcionalidade robusta.
             </p>
             <p>
-              Minha jornada na programação começou há X anos, e desde então venho constantemente aprimorando minhas
+              Minha jornada na programação começou há 3 anos, e desde então venho constantemente aprimorando minhas
               habilidades e acompanhando as últimas tendências e tecnologias do mercado.
             </p>
             <p>
-              Quando não estou codificando, gosto de [seus hobbies e interesses]. Acredito que essas atividades me
-              ajudam a manter uma perspectiva equilibrada e criativa que aplico em meu trabalho.
+              Desde o início da minha carreira, tenho trabalhado com plataformas multicanais de mensageria,
+              desenvolvendo sistemas integrados com WhatsApp, Instagram, Telegram e Facebook — sempre com foco em escalabilidade, confiabilidade e integração eficiente entre canais.
+            </p>
+            <p>
+              Fora do trabalho, gosto de criar projetos que têm a ver com o que estou curtindo no momento — já desenvolvi bots para automatizar operações com criptomoedas, ferramentas para facilitar meus investimentos na bolsa e até algumas automações com RPA que me ajudam a ganhar tempo no dia a dia. Sempre que posso, tento usar a programação como uma forma prática de resolver coisas da vida real.
             </p>
           </div>
         </div>

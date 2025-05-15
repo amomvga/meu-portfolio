@@ -32,7 +32,7 @@ export default function Hero({ userName, avatar }: Props) {
           </div>
           <div className="flex gap-4 pt-4">
             <a
-              href="https://github.com"
+              href="https://github.com/amomvga"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-emerald-600 transition-colors dark:text-gray-400 dark:hover:text-emerald-400"
@@ -40,7 +40,7 @@ export default function Hero({ userName, avatar }: Props) {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/amom-augusto-873116202"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-600 hover:text-emerald-600 transition-colors dark:text-gray-400 dark:hover:text-emerald-400"

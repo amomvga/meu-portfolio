@@ -19,7 +19,7 @@ export default function Footer() {
 
           <div className="flex gap-6">
             <a
-              href="https://github.com"
+              href="https://github.com/amomvga"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-emerald-400 transition-colors"
@@ -27,21 +27,21 @@ export default function Footer() {
               <Github size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/amom-augusto-873116202/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-emerald-400 transition-colors"
             >
               <Linkedin size={24} />
             </a>
-            <a href="mailto:seuemail@exemplo.com" className="text-gray-400 hover:text-emerald-400 transition-colors">
+            <a href="mailto:amom_augusto@hotmail.com" className="text-gray-400 hover:text-emerald-400 transition-colors">
               <Mail size={24} />
             </a>
           </div>
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>© {currentYear} Seu Nome. Todos os direitos reservados.</p>
+          <p>© {currentYear} Amom Augusto. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
