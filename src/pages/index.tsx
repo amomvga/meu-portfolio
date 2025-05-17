@@ -5,24 +5,12 @@ import Experience from "@/components/experience"
 import Contact from "@/components/contact"
 import Footer from "@/components/footer"
 import Header from "@/components/header"
-import { useEffect, useState } from "react"
-import { api } from "@/lib/axios"
+import { useGithubUser } from "@/hooks/useGithubUser"
 
 export default function Home() {
-  const [name, setName] = useState('')
-  const [avatarURL, setAvatarURL] = useState('')
+  const { user, loading } = useGithubUser("amomvga")
 
-  useEffect(() => {
-    const fetchUser = async () => {
-      const { data } = await api.get('users/amomvga')
-
-      setName(data.name)
-      setAvatarURL(data.avatar_url)
-
-    }
-
-    fetchUser()
-  }, [])
+  if (loading || !user) return null
 
   return (
     <>
@@ -36,7 +24,7 @@ export default function Home() {
       <Header />
 
       <main className="min-h-screen">
-        <Hero userName={name} avatar={avatarURL} />
+        <Hero userName={user.name} avatar={user.avatarURL} />
         <About />
         <Experience />
         <Contact />
