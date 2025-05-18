@@ -81,9 +81,15 @@ export default function Header() {
                 {item.name}
               </Link>
             ))}
-            <div className="pt-2">
-              <ThemeToggle />
-            </div>
+            <Link
+              href="/curriculo-amom-augusto.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 px-3 py-1 text-emerald-600 hover:bg-emerald-600 hover:text-white transition-colors dark:border-emerald-400 dark:text-emerald-400 dark:hover:bg-emerald-400 dark:hover:text-gray-900"
+            >
+              <Download size={18} />
+              Baixar CV
+            </Link>
           </div>
         </div>
       )}
