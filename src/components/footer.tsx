@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <Link href="#hero" className="text-xl font-bold">
-              Meu<span className="text-emerald-400">Portfólio</span>
+              Meu<span className="text-emerald-400">Hub</span>
             </Link>
             <p className="mt-2 text-gray-400 max-w-md">
               Desenvolvedor web especializado em criar experiências digitais excepcionais.

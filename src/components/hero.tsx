@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Download, Github, Linkedin, Mail } from "lucide-react"
+import { Download, Github, Linkedin } from "lucide-react"
 
 interface Props {
   userName: string
@@ -19,17 +19,6 @@ export default function Hero({ userName, avatar }: Props) {
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl">
             Especializado em criar experiências digitais excepcionais com foco em design moderno e código limpo.
           </p>
-          <div className="flex flex-wrap gap-4">
-            <Button className="bg-emerald-600 hover:bg-emerald-700 dark:bg-emerald-500 dark:hover:bg-emerald-600">
-              <Mail className="mr-2 h-4 w-4" /> Entre em contato
-            </Button>
-            <Button
-              variant="outline"
-              className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 dark:border-emerald-400 dark:text-emerald-400 dark:hover:bg-emerald-950/50"
-            >
-              <Download className="mr-2 h-4 w-4" /> Baixar CV
-            </Button>
-          </div>
           <div className="flex gap-4 pt-4">
             <a
               href="https://github.com/amomvga"

@@ -15,8 +15,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Meu Portfólio Profissional</title>
-        <meta name="description" content="Portfólio e currículo profissional criado com Next.js e Tailwind CSS" />
+        <title>Meu Hub</title>
+        <meta name="description" content="Currículo profissional criado com Next.js e Tailwind CSS" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
